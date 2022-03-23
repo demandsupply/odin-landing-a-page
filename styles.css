@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /*border: 1px solid #000;*/
+}
+
+body {
+    width: 1400px;
+    margin: auto;
+    font-family: roboto, sans-serif;
+}
+
+.navbar {
+    height: 50px;
+    width: 1400px;
+    position: fixed;
+    background-color: #1f2937;
+    
+}
+.header {
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header p {
+    font-size: 24px;
+    color: #f9faf8;
+}
+.header-links {
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header-links a {
+    text-decoration: none;
+}
+.header-links a:visited {
+    color: #e5e7eb;
+}
+
+.container-one {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 120px 0 90px 0;
+}
+.box-one {
+    width: 520px;
+}
+.box-one h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+.box-one p {
+    padding: 10px 0;
+}
+.box-one button {
+    border: #3882f6;
+}
+.container-one figure img {
+    width: 400px;
+}
+figcaption {
+    text-align: center;
+    font-size: 15px;
+}
+
+button {
+    color: #fff;
+    background-color: #3882f6;
+    border-radius: 8px;
+    font-size: large;
+    font-weight: 700;
+    padding: 5px 30px;
+}
+
+.container-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.container-two h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin: 50px;
+}
+.container-two-boxes {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 50px;
+
+}
+.box {
+    width: 200px;
+    text-align: center;
+}
+.box img {
+    border-radius: 16px;
+    width: 200px;
+    height: 225px;
+    object-fit: cover;
+}
+
+.section-three {
+    background-color: #e5e7eb;
+}
+.container-three {
+    margin: auto;
+    width: 850px;
+    
+}
+.quote {
+    padding: 100px 100px 0 100px;
+    font-size: 26px;
+    font-style: italic;
+    color: #1f2937;
+}
+.author {
+    text-align: end;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 5px 100px 80px 100px;
+}
+
+.section-four {
+    padding: 50px 0;
+}
+.container-four {
+    width: 950px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 50px 0;
+    border-radius: 16px;
+}
+.sign-up {
+    border: 2px solid #fff;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 30px 0;
+}
